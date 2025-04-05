@@ -1,0 +1,5 @@
+litserve>=0.1.0
+openai-whisper
+numpy
+ffmpeg-python 
+python-multipart

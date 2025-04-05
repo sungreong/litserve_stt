@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  whisper-api:
+    build: .
+    ports:
+      - "9000:9000"
+    environment:
+      - MODEL_SIZE=turbo  # tiny, base, small, medium, large 중 선택 (CPU에서는 medium 이하 권장)
+      - PORT=9000
+      - HOST=0.0.0.0
+    volumes:
+      - ./tmp:/app/tmp 

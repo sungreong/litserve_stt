@@ -1,0 +1,1 @@
+# curl -X POST -H "Accept: application/json" -F "content=@test.mp3" http://localhost:9000/predict
